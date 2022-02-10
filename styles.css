@@ -1,33 +1,50 @@
 * {
-   line-height: 1.5rem;
-   padding: 5px;
+   line-height: 1.4rem;
+   padding: 20px;
+   margin: 0px;
 }
 .page {
     border: 1px black solid;
-    height: 900px;
+    height: 980px;
     width: 600px;
     margin: 10px;
     box-shadow: 2px 2px 2px gray;
     border-radius: 2px;
+    background-color: rgb(199, 247, 199);
 }
-li {
+ul {
+    padding: 0px;
     list-style: none;
 }
-img {
+li {
+    padding: 10px 20px 10px 20px;
+}
+.memes li img {
+    list-style: none;
+    padding: 0px;
+    height: 200px;
+    padding: 0px;
+}
+.merch li img {
+    list-style: none;
+    padding: 0px;
     height: 250px;
+    padding: 0px;
 }
 h1 {
     text-align: center;
     font-size: 3rem;
-    padding-top: 400px;
+    padding-top: 225px;
+    padding-bottom: 150px;
 }
 h2 {
-    padding-top: 20px;
-    padding-bottom: 15px;
-}
-.page {
-    background-color: rgb(199, 247, 199);
+    padding: 20px;
 }
 .heading {
-    background-color: rgb(120, 240, 120);
+    background-color: rgb(161, 253, 161);
+}
+a {
+    text-decoration: none;
+    color: rgb(94, 150, 168);
+    font-weight: bold;
 }
